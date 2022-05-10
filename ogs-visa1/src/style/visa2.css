@@ -1,0 +1,219 @@
+html {
+    max-width: 390px;
+    margin: 0;
+}
+
+body {
+    background: #F5F6F8 !important;
+}
+
+.top2 {
+    padding: 0 7%;
+    background-image: linear-gradient(90deg, #40627E, #1D2F3F);
+    height: 320px;
+    padding-top: 10%;
+}
+
+.top-header2 {
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    line-height: 0px;
+}
+
+.chart2 {
+    transform: rotate(90deg);
+    color: white;
+}
+
+.top-span2 {
+    padding: 0 10%;
+    font-size: 0.7em;
+    color: #3D5C77;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.available-balance2 {
+    font-weight: 700;
+    margin: 0 !important;
+    font-size: 12px;
+    color: #6B8E79;
+    margin-top: 5px !important;
+    text-align: center;
+}
+
+.balance2 {
+    height: fit-content !important;
+    justify-content: center;
+}
+
+.dollar2 {
+    color: white;
+    background: #1D2F3F;
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.count2 {
+    color: white;
+    font-size: 35px;
+    opacity: 0.8;
+    letter-spacing: 1.5px;
+
+}
+
+.card-date2 {
+    text-align: center;
+    font-weight: 600;
+    color: #82A2CF;
+    opacity: 0.8;
+    font-size: 15px;
+}
+.card-no-box2{
+    background: #334F67 ;
+    opacity: 0.6;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #19283667,
+    -1px -1px 5px #2d47602f;
+    padding: 10px;
+    margin-top: 15px;
+}
+.card-no2 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    justify-content: center;
+}
+
+.card-detail2 {
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+}
+
+.card-detail2 span {
+    font-size: 15px;
+}
+
+.transection2 {
+    margin: 0 !important;
+    margin-top: 25px !important;
+    border-radius: 5px;
+    background: white;
+    height: 85px;
+    box-shadow: 0px 3px 4px #dadbdc;
+}
+
+.income2, .expense2 {
+    align-items: center;
+    padding: 15px;
+}
+
+.transection .descrip {
+    color: #3D5C77;
+    width: fit-content;
+    padding: 1px 10px;
+    border: 2px solid #E7E9E8;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.trans-count2 {
+    font-weight: 600;
+}
+
+.income2 .trans-count2 {
+    color: #44B477;
+}
+
+.expense2 .trans-count2 {
+    color: #D65657;
+}
+
+
+.head-movement2 {
+    color: #3D5C77;
+    margin: 0 7% !important;
+    margin-top: 75px !important;
+    margin-bottom: 15px !important;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.head-movement2 .sort{
+    font-size: 14px;
+    margin: 5px 0;
+    color: #3A3A3B;
+    font-weight: 400;
+}
+.movement-box2 {
+    margin: 0 6% !important;
+    margin-bottom: 10px !important;
+    border-radius: 5px;
+    background: white;
+    height: 65px;
+    box-shadow: 2px 2px 4px #eeeff1,
+        -2px -2px 4px #eeeff1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movement-box2 .icon2 {
+    font-size: 34px;
+    color: #3A3A3B !important;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.movement-detail2 {
+    margin: 0 10px;
+    width: 170px;
+}
+
+.movement-detail2 .subject2 {
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.movement-detail2 .date2 {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.movement-trans2 {
+    display: flex;
+    padding: 10px 2px;
+}
+
+.movement-trans2 span {
+    height: fit-content;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.movement-trans2 .arrow {
+    font-size: 15px;
+    margin: 3px;
+}
+
+.movement-income2 {
+    color: #44B477;
+}
+
+.movement-expense2 {
+    color: #D65657;
+}
